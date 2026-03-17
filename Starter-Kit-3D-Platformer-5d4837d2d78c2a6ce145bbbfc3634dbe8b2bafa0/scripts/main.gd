@@ -9,3 +9,5 @@ func _ready() -> void:
 		$Sun.light_energy = 0.24
 		$Sun.shadow_opacity = 0.85
 		$Environment.environment.background_energy_multiplier = 0.25
+	
+	Dialogic.start("res://dialogic//timelines/intro_timeline.dtl")

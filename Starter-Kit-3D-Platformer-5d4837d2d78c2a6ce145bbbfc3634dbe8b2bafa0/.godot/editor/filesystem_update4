@@ -1,4 +1,20 @@
 res://scenes/main.tscn
 res://scenes/main-environment.tres
+<<<<<<< Updated upstream
 res://objects/player.tscn
 res://scripts/player.gd
+=======
+res://dialogic/timeline.dtl
+res://dialogic/intro_timeline.dtl
+res://scripts/main.gd
+res://scripts/player.gd
+res://dialogic/characters/narrator.tres.dch
+res://dialogic/timelines/intro_timeline.dtl
+res://dialogic/characters/narrator.dch
+res://dialogic/characters/Roblox_Character-1png-removebg-preview.png.dch
+res://dialogic/timelines/end_timeline.dtl
+res://dialogic/characters/fish.dch
+res://scripts/flag.gd
+res://dialogic/New_File.tres
+res://dialogic/dialogic_style.tres
+>>>>>>> Stashed changes

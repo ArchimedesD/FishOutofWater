@@ -16,6 +16,8 @@
 [ext_resource type="PackedScene" uid="uid://85ldumyetgou" path="res://objects/brick.tscn" id="12_jkv2x"]
 [ext_resource type="PackedScene" uid="uid://dy017k58p20sk" path="res://objects/cloud.tscn" id="13_drtpy"]
 [ext_resource type="Texture2D" uid="uid://cd7oyc56ehkx1" path="res://sprites/coin.png" id="13_jfda3"]
+[ext_resource type="Script" uid="uid://dop587g5lt06m" path="res://scenes/enemy.gd" id="15_gqmmt"]
+[ext_resource type="Texture2D" uid="uid://xd40mrssr2o2" path="res://dialogic/characters/Skull.png" id="16_yc10j"]
 [ext_resource type="FontFile" uid="uid://d0cxd77jybrcn" path="res://fonts/lilita_one_regular.ttf" id="17_tk810"]
 [ext_resource type="AudioStream" uid="uid://ba2opf8anwkur" path="res://sounds/ambientgodot_mixdown.wav" id="18_dp3eg"]
 
@@ -220,6 +222,18 @@ transform = Transform3D(0.763751, 0, 0.64551103, 0, 1, 0, -0.64551103, 0, 0.7637
 
 [node name="brick3" parent="World" unique_id=951834923 instance=ExtResource("12_jkv2x")]
 transform = Transform3D(0.93908226, 0, 0.34369248, 0, 1, 0, -0.34369248, 0, 0.93908226, -19.034018, 3.215011, 2.869449)
+
+[node name="Enemy" type="CharacterBody3D" parent="World" unique_id=1081854755]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.264856, 2.8877137, 1.2137094)
+collision_layer = 2
+motion_mode = 1
+script = ExtResource("15_gqmmt")
+speed = 1.0
+
+[node name="Sprite3D" type="Sprite3D" parent="World/Enemy" unique_id=320235924]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+pixel_size = 0.0005
+texture = ExtResource("16_yc10j")
 
 [node name="Sun" type="DirectionalLight3D" parent="." unique_id=868422322]
 transform = Transform3D(-0.422618, -0.694272, 0.582563, 0, 0.642788, 0.766044, -0.906308, 0.323744, -0.271654, 0, 0, 0)

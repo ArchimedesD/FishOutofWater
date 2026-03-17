@@ -1,3 +1,8 @@
-res://scenes/main.tscn
 res://dialogic/dialogic_style.tres
+res://scenes/main.tscn
 res://scenes/main-environment.tres
+res://dialogic/timelines/intro_timeline.dtl
+res://dialogic/timelines/end_timeline.dtl
+res://dialogic/characters/fish.dch
+res://sounds/ambientsoundtimeline.dtl
+res://scripts/audio.gd

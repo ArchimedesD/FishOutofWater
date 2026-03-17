@@ -1,2 +1,5 @@
+audio "res://sounds/musicgodot_mixdown.wav"
+audio "res://sounds/sfxbubblesgodot_mixdown.wav"
 fish: Wow, I did it!!
+audio "res://sounds/sfxbubblesgodot_mixdown.wav"
 narrator: Congratulations! You collected the required 12 coins. Now you can afford to buy a better fish tank for yourself.

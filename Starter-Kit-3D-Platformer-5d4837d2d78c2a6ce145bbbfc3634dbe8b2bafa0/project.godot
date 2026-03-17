@@ -70,9 +70,9 @@ audio/channel_defaults={
 },
 "music": {
 "audio_bus": "",
-"fade_length": 0.0,
+"fade_length": 0.5,
 "loop": true,
-"volume": 0.0
+"volume": 2.0
 }
 }
 layout/style_list=["res://dialogic/dialogic_style.tres"]
@@ -99,6 +99,12 @@ enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
 [filesystem]
 
 import/blender/enabled=false
+
+[importer_defaults]
+
+wav={
+&"edit/loop_mode": 2
+}
 
 [input]
 

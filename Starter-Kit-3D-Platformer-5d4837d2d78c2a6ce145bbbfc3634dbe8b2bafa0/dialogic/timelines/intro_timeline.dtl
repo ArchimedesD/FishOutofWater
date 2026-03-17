@@ -1,5 +1,12 @@
+audio music "res://sounds/musicgodot_mixdown.wav"
+audio "res://sounds/sfxbubblesgodot_mixdown.wav"
 fish: W-where am I?
+audio "res://sounds/sfxbubblesgodot_mixdown.wav"
 narrator: Welcome to Fish Out of Water!
+audio "res://sounds/sfxbubblesgodot_mixdown.wav"
 narrator: To move your character, use WASD. To move the camera, use the keyboard's arrow keys. The camera controls are inverted.
+audio "res://sounds/sfxbubblesgodot_mixdown.wav"
 narrator: Red platforms will start to fall once you touch them. You can click space bar twice to double jump.
+audio "res://sounds/sfxbubblesgodot_mixdown.wav"
 narrator: Your goal is to collect at least 12 coins and make it to the purple flag without falling to buy a bigger (and less dangerous) fish tank for yourself.
+audio music "res://sounds/ambientgodot_mixdown.wav"

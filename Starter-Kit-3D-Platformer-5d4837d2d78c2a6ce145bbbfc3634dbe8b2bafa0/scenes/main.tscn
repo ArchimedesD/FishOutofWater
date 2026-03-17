@@ -17,6 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://dy017k58p20sk" path="res://objects/cloud.tscn" id="13_drtpy"]
 [ext_resource type="Texture2D" uid="uid://cd7oyc56ehkx1" path="res://sprites/coin.png" id="13_jfda3"]
 [ext_resource type="FontFile" uid="uid://d0cxd77jybrcn" path="res://fonts/lilita_one_regular.ttf" id="17_tk810"]
+[ext_resource type="AudioStream" uid="uid://ba2opf8anwkur" path="res://sounds/ambientgodot_mixdown.wav" id="18_dp3eg"]
 
 [sub_resource type="GDScript" id="GDScript_jkv2x"]
 script/source = "extends Node3D
@@ -275,5 +276,10 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="bg_music" type="AudioStreamPlayer" parent="." unique_id=1425367228]
+stream = ExtResource("18_dp3eg")
+volume_db = -10.035
+autoplay = true
 
 [connection signal="coin_collected" from="Player" to="HUD" method="_on_coin_collected"]

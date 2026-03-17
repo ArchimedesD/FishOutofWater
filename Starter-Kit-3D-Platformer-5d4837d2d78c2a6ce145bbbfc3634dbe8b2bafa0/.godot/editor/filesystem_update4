@@ -1,1 +1,2 @@
-res://meshes/brick.res
+res://scenes/main.tscn
+res://scenes/main-environment.tres
